@@ -1,6 +1,6 @@
-# Claude Code - Stat401 Homework Setup
+# Claude Code - HWConfig
 
-Minimal Claude Code configuration for doing Big Data / Statistics homework (Python, Jupyter Notebooks).
+Minimal Claude Code configuration for doing homework.
 
 ## What This Enables
 
@@ -85,9 +85,3 @@ Open the homework folder in Cursor, then launch Claude Code from the terminal. T
    - Run cells via IDE integration
    - Generate plots (matplotlib/seaborn)
    - Generate PDF reports
-
-## Homework Examples Done With This Setup
-
-- **HW1**: MapReduce vs Spark (RDD) - Logistic Regression benchmark + LSM American Options
-- **HW2**: Columnar Storage & Dremel - Parquet/CSV performance benchmark on 3.7GB dataset
-- **HW3**: MinHash & Mash - Locality-Sensitive Hashing + genomic sequence similarity
