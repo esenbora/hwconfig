@@ -1,0 +1,84 @@
+# Krabby Handoff Document
+# Generated: 2026-01-25T01:34:36
+# Session: unknown
+
+metadata:
+  session_id: "unknown"
+  timestamp: "2026-01-25T01:34:36"
+  project: "."
+  git_branch: "main"
+
+state:
+  # Current task being worked on
+  current_task: "[TODO: Fill from context]"
+
+  # Files modified in this session
+  files_modified:
+  - monitor/scheduler.py
+  - config/settings.py
+  - check_db_status.py
+  - storage/__init__.py
+  - storage/tracker.py
+  - monitor_bot.py
+  - scrapers/bynogame.py
+  - scrapers/gamesatis.py
+  - venv/lib/python3.9/site-packages/fake_useragent/fake.py
+  - venv/lib/python3.9/site-packages/fake_useragent/log.py
+  - venv/lib/python3.9/site-packages/fake_useragent/__init__.py
+  - venv/lib/python3.9/site-packages/fake_useragent/get_version.py
+  - venv/lib/python3.9/site-packages/fake_useragent/utils.py
+  - venv/lib/python3.9/site-packages/fake_useragent/errors.py
+  - venv/lib/python3.9/site-packages/async_timeout/__init__.py
+  - venv/lib/python3.9/site-packages/aiohttp/web_ws.py
+  - venv/lib/python3.9/site-packages/aiohttp/client_middlewares.py
+  - venv/lib/python3.9/site-packages/aiohttp/worker.py
+  - venv/lib/python3.9/site-packages/aiohttp/multipart.py
+  - venv/lib/python3.9/site-packages/aiohttp/web_response.py
+
+  # Key decisions made
+  decisions_made:
+    - "[TODO: Fill from context]"
+
+  # Git status
+  git_status:
+  - M config/settings.py
+  - M main.py
+  - M monitor/scheduler.py
+  - M scrapers/bynogame.py
+  - M scrapers/gamesatis.py
+  - M services/__init__.py
+  - M services/csfloat_search.py
+  - D services/google_sheets.py
+  - M services/notifier.py
+  - D services/opportunity_verifier.py
+  - M storage/__init__.py
+  - D storage/seen_listings.py
+  - M storage/tracker.py
+  - ?? .claude/
+  - ?? MONITORING_REPORT.md
+  - ?? check_db_status.py
+  - ?? monitor_bot.py
+  - ?? run_once.py
+  - ?? services/csfloat_strategies.py
+  - ?? services/steam_market.py
+
+patterns_discovered:
+  # New patterns learned in this session
+  - "[TODO: Fill from context]"
+
+next_steps:
+  # What should be done next
+  - "[TODO: Fill from context]"
+
+blockers:
+  # Any blocking issues
+  - none
+
+notes: |
+  This handoff was auto-generated before context compaction.
+  Review and update the [TODO] sections based on actual session context.
+
+  To continue this work:
+  1. Read this handoff file
+  2. Check progress.txt for Codebase Patterns
+  3. Resume from next_steps

@@ -1,0 +1,65 @@
+# Krabby Handoff Document
+# Generated: 2026-01-30T18:07:00
+# Session: unknown
+
+metadata:
+  session_id: "unknown"
+  timestamp: "2026-01-30T18:07:00"
+  project: "."
+  git_branch: "main"
+
+state:
+  # Current task being worked on
+  current_task: "[TODO: Fill from context]"
+
+  # Files modified in this session
+  files_modified:
+  - node_modules/fs-constants/index.js
+  - node_modules/fs-constants/browser.js
+  - node_modules/@types/better-sqlite3/index.d.ts
+  - node_modules/@types/node/compatibility/indexable.d.ts
+  - node_modules/@types/node/compatibility/index.d.ts
+  - node_modules/@types/node/compatibility/iterators.d.ts
+  - node_modules/@types/node/compatibility/disposable.d.ts
+  - node_modules/@types/node/path.d.ts
+  - node_modules/@types/node/constants.d.ts
+  - node_modules/@types/node/domain.d.ts
+  - node_modules/@types/node/diagnostics_channel.d.ts
+  - node_modules/@types/node/globals.d.ts
+  - node_modules/@types/node/sea.d.ts
+  - node_modules/@types/node/string_decoder.d.ts
+  - node_modules/@types/node/tls.d.ts
+  - node_modules/@types/node/tty.d.ts
+  - node_modules/@types/node/punycode.d.ts
+  - node_modules/@types/node/readline.d.ts
+  - node_modules/@types/node/crypto.d.ts
+  - node_modules/@types/node/trace_events.d.ts
+
+  # Key decisions made
+  decisions_made:
+    - "[TODO: Fill from context]"
+
+  # Git status
+  git_status:
+    - clean
+
+patterns_discovered:
+  # New patterns learned in this session
+  - "[TODO: Fill from context]"
+
+next_steps:
+  # What should be done next
+  - "[TODO: Fill from context]"
+
+blockers:
+  # Any blocking issues
+  - none
+
+notes: |
+  This handoff was auto-generated before context compaction.
+  Review and update the [TODO] sections based on actual session context.
+
+  To continue this work:
+  1. Read this handoff file
+  2. Check progress.txt for Codebase Patterns
+  3. Resume from next_steps

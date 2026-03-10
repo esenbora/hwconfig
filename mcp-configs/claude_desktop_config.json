@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "Roblox_Studio": {
+      "command": "/Users/boraesen/Desktop/Roblox/studio-rust-mcp-server/target/release/rbx-studio-mcp",
+      "args": [
+        "--stdio"
+      ]
+    }
+  },
+  "preferences": {
+    "chromeExtensionEnabled": true,
+    "coworkScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true,
+    "bypassPermissionsModeEnabled": true,
+    "dockBounceEnabled": true
+  }
+}

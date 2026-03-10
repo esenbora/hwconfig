@@ -1,0 +1,17 @@
+# Krabby Session Summary
+# Session ID: 1769951017
+# Ended: 2026-02-01T16:03:37
+
+metadata:
+  session_id: "1769951017"
+  ended_at: "2026-02-01T16:03:37"
+  project: "."
+  git_branch: "main"
+
+stats:
+  git_commits: 1
+  new_learnings: 0
+0
+
+# Note: Detailed summary should be filled by session-summary.sh hook
+summary: "[Auto-generated session end marker]"

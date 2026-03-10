@@ -1,0 +1,4 @@
+{"timestamp":"YYYY-MM-DDTHH:MM:SSZ","type":"error","command":"command that failed","output":"error message (truncated)","exitCode":1,"resolved":false}
+{"timestamp":"YYYY-MM-DDTHH:MM:SSZ","type":"error_resolved","originalTimestamp":"YYYY-MM-DDTHH:MM:SSZ","solution":"what fixed it"}
+{"timestamp":"YYYY-MM-DDTHH:MM:SSZ","type":"pattern","pattern":"pattern name","description":"what was discovered","context":"where it applies"}
+{"timestamp":"YYYY-MM-DDTHH:MM:SSZ","type":"session_end"}

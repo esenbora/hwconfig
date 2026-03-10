@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "Roblox_Studio": {
+      "args": [
+        "--stdio"
+      ],
+      "command": "/Users/boraesen/Desktop/Roblox/studio-rust-mcp-server/target/release/rbx-studio-mcp"
+    },
+    "XcodeBuildMCP": {
+      "args": [
+        "-y",
+        "xcodebuildmcp@latest"
+      ],
+      "command": "npx"
+    }
+  }
+}

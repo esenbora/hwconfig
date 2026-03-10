@@ -1,0 +1,1 @@
+{"type":"example","error":"TypeError: Cannot read property 'map' of undefined","context":"Rendering list without null check","solution":"Add optional chaining: items?.map()","prevention":"Always use optional chaining for potentially undefined arrays","timestamp":"2026-01-13T00:00:00Z","session":"example"}
