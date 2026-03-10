@@ -11,35 +11,6 @@
             "type": "command",
             "command": "bash ~/.claude/hooks/session-start.sh",
             "timeout": 5
-          },
-          {
-            "type": "command",
-            "command": "CLAUDE_HOOK_EVENT_NAME=SessionStart bash ~/.claude/hooks/persist-learnings.sh",
-            "timeout": 2
-          }
-        ]
-      }
-    ],
-    "Stop": [
-      {
-        "matcher": "*",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "CLAUDE_HOOK_EVENT_NAME=Stop bash ~/.claude/hooks/persist-learnings.sh",
-            "timeout": 2
-          }
-        ]
-      }
-    ],
-    "UserPromptSubmit": [
-      {
-        "matcher": "*",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash ~/.claude/hooks/user-prompt-submit.sh",
-            "timeout": 2
           }
         ]
       }
@@ -52,54 +23,6 @@
             "type": "command",
             "command": "bash ~/.claude/hooks/pre-tool-use.sh",
             "timeout": 2
-          }
-        ]
-      },
-      {
-        "matcher": "Bash(npm install*)|Bash(npm i *)",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash -c '[ -f app.json ] && echo \"Warning: Expo project: Use npx expo install instead of npm install\" >&2 || true'",
-            "timeout": 1
-          }
-        ]
-      },
-      {
-        "matcher": "Bash(rm -rf*)",
-        "hooks": [
-          {
-            "type": "prompt",
-            "prompt": "rm -rf detected. Confirm target directory before proceeding."
-          }
-        ]
-      },
-      {
-        "matcher": "Bash(git push*-f*)|Bash(git push*--force*)",
-        "hooks": [
-          {
-            "type": "prompt",
-            "prompt": "Force push detected. Confirm you want to rewrite remote history."
-          }
-        ]
-      },
-      {
-        "matcher": "Bash(git commit*)",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash ~/.claude/hooks/pre-commit.sh",
-            "timeout": 30
-          }
-        ]
-      },
-      {
-        "matcher": "Bash(npm audit*)|Bash(pnpm audit*)",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo 'Running security audit...'",
-            "timeout": 1
           }
         ]
       }
@@ -117,24 +40,11 @@
       }
     ]
   },
-  "statusLine": {
-    "type": "command",
-    "command": "bash ~/.claude/statusline-command.sh"
-  },
   "enabledPlugins": {
-    "double-shot-latte@superpowers-marketplace": true,
-    "elements-of-style@superpowers-marketplace": true,
     "episodic-memory@superpowers-marketplace": true,
-    "superpowers-developing-for-claude-code@superpowers-marketplace": true,
-    "superpowers-lab@superpowers-marketplace": true,
+    "double-shot-latte@superpowers-marketplace": true,
     "superpowers@superpowers-marketplace": true,
-    "superpowers-chrome@superpowers-marketplace": true,
-    "frontend-design@claude-code-plugins": true,
-    "ralph-wiggum@claude-code-plugins": true,
-    "agent-sdk-dev@claude-code-plugins": true
+    "superpowers-chrome@superpowers-marketplace": true
   },
-  "promptSuggestionEnabled": false,
-  "autoUpdatesChannel": "stable",
-  "skipDangerousModePermissionPrompt": true,
   "effortLevel": "high"
 }
